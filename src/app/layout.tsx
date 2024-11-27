@@ -9,6 +9,9 @@ const defaultDescription =
   "Psychologue clinicienne à Toulouse et Plaisance-du-Touch, spécialisée dans l'autisme et les troubles du neurodéveloppement (TND). Accompagnement personnalisé pour enfants, adolescents et adultes.";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "RwMW2b1JjOuMxTnlA_QBUcS21b8KfA5xmpW-CxQnrVE", // Le code fourni par Google
+  },
   metadataBase: new URL("https://margot-reboul.vercel.app"),
   title: {
     default: siteTitle,
