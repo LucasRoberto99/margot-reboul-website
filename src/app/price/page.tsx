@@ -1,6 +1,34 @@
 // app/price/page.tsx
 import { Price } from "@/components/exports";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tarifs",
+  description:
+    "Tarifs des consultations psychologiques à Toulouse : séances individuelles, guidance parentale, groupes d'habiletés sociales. Première consultation à 60€. Spécialiste TND & Autisme.",
+  openGraph: {
+    title: "Tarifs | Margot Reboul - Psychologue TND & Autisme",
+    description:
+      "Tarifs des consultations psychologiques à Toulouse : séances individuelles, guidance parentale, groupes d'habiletés sociales. Première consultation à 60€. Spécialiste TND & Autisme.",
+    images: [
+      {
+        url: "/imgs/margot.png",
+        alt: "Tarifs des consultations - Margot Reboul Psychologue",
+      },
+    ],
+  },
+  keywords: [
+    "tarifs psychologue Toulouse",
+    "prix consultation psychologue",
+    "tarif séance TND",
+    "prix consultation autisme",
+    "groupe habiletés sociales Toulouse",
+    "guidance parentale tarif",
+    "Plaisance-du-Touch psychologue prix",
+  ],
+};
+
 export default function Prices() {
   return (
     <div className="flex w-full flex-col items-center gap-8 bg-custom-lime max-md:mx-3">

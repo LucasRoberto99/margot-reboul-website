@@ -1,6 +1,19 @@
 // app/service/page.tsx
 import { Service } from "@/components/exports";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Prestations",
+  description:
+    "Consultations psychologiques spécialisées en TND et autisme à Toulouse. Évaluations, bilans psychologiques, accompagnement thérapeutique, guidance parentale. Expertise troubles neurodéveloppementaux.",
+  openGraph: {
+    title: "Prestations | Margot Reboul - Psychologue TND & Autisme",
+    description:
+      "Consultations psychologiques spécialisées en TND et autisme à Toulouse. Évaluations, bilans psychologiques, accompagnement thérapeutique, guidance parentale. Expertise troubles neurodéveloppementaux.",
+  },
+};
+
 export default function Services() {
   return (
     <div className="flex flex-col items-center gap-8 bg-custom-lime max-md:mx-3">
