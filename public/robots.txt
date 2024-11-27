@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://margot-rebou.vercel.app/sitemap.xml
+Sitemap: https://margot-reboul.vercel.app/sitemap.xml
