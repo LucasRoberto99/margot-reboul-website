@@ -91,7 +91,13 @@ export const metadata: Metadata = {
     "geo.placename": "Toulouse, Plaisance-du-Touch",
     "apple-mobile-web-app-title": "Margot Reboul",
     "og:url": "https://margot-reboul.vercel.app",
-    "og:image:type": "image/png", // Spécifiez le type de l'image
+    "og:type": "website",
+    "og:title": siteTitle,
+    "og:image": "https://margot-reboul.vercel.app/imgs/margot.png",
+    "og:image:type": "image/png",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:description": defaultDescription,
   },
 };
 
