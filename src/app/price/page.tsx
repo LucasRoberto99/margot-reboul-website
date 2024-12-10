@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "guidance parentale tarif",
     "Plaisance-du-Touch psychologue prix",
   ],
+  alternates: {
+    canonical: 'https://margot-reboul.vercel.app/price',
+  },
 };
 
 export default function Prices() {
