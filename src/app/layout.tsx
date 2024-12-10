@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/imgs/margot.png",
+        url: "https://margot-reboul.vercel.app/imgs/margot.png",
         width: 1200, // Ajout
         height: 630, // Ajout
         alt: "Margot Reboul - Psychologue clinicienne à Toulouse et Plaisance-du-Touch",
