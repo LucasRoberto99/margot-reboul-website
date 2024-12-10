@@ -61,6 +61,7 @@ export const metadata: Metadata = {
     ],
     locale: "fr_FR",
     siteName: siteTitle, // Ajout
+    url: "https://margot-reboul.vercel.app", // Ajout important
   },
   icons: {
     icon: [
@@ -89,6 +90,8 @@ export const metadata: Metadata = {
     "geo.region": "FR-31",
     "geo.placename": "Toulouse, Plaisance-du-Touch",
     "apple-mobile-web-app-title": "Margot Reboul",
+    "og:url": "https://margot-reboul.vercel.app",
+    "og:image:type": "image/png", // Spécifiez le type de l'image
   },
 };
 
@@ -113,7 +116,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
               name: "Margot Reboul - Psychologue",
-              image: "/imgs/margot.png",
+              image: "https://margot-reboul.vercel.app/imgs/margot.png",
               description: defaultDescription,
               location: [
                 {
