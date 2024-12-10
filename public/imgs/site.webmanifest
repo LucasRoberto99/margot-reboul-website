@@ -1,21 +1,23 @@
 {
-  "name": "Margot Reboul",
-  "short_name": "MReboul",
+  "name": "Margot Reboul - Psychologue TND & Autisme",
+  "short_name": "Margot Reboul",
+  "description": "Psychologue clinicienne spécialisée dans l'autisme et les troubles du neurodéveloppement",
   "icons": [
     {
-      "src": "/imgs/logo_sapin.svg/web-app-manifest-192x192.png",
+      "src": "/imgs/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/imgs/logo_sapin.svg/web-app-manifest-512x512.png",
+      "src": "/imgs/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "start_url": "/",
+  "theme_color": "#c1e4a8",
+  "background_color": "#c1e4a8",
   "display": "standalone"
 }
