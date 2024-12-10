@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://margot-reboul.vercel.app
+
+# Sitemaps
 Sitemap: https://margot-reboul.vercel.app/sitemap.xml
