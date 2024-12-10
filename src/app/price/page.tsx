@@ -4,31 +4,25 @@ import { Price } from "@/components/exports";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tarifs",
+  title: "Tarifs", // Donnera "Tarifs | Margot Reboul - Psychologue"
   description:
-    "Tarifs des consultations psychologiques à Toulouse : séances individuelles, guidance parentale, groupes d'habiletés sociales. Première consultation à 60€. Spécialiste TND & Autisme.",
+    "Consultations psychologiques à Toulouse et Plaisance-du-Touch : première séance 60€. Accompagnement individuel, guidance parentale et groupes d'habiletés sociales. Spécialiste TND & Autisme, remboursement possible.",
+  alternates: {
+    canonical: "/price", // Modifié pour utiliser un chemin relatif
+  },
   openGraph: {
-    title: "Tarifs | Margot Reboul - Psychologue TND & Autisme",
+    title: "Tarifs et remboursements | Psychologue TND & Autisme à Toulouse", // Plus attractif et informatif
     description:
-      "Tarifs des consultations psychologiques à Toulouse : séances individuelles, guidance parentale, groupes d'habiletés sociales. Première consultation à 60€. Spécialiste TND & Autisme.",
+      "Consultations psychologiques à Toulouse et Plaisance-du-Touch : première séance 60€. Accompagnement individuel, guidance parentale et groupes d'habiletés sociales. Spécialiste TND & Autisme, remboursement possible.",
+    url: "/price",
     images: [
       {
         url: "/imgs/margot.png",
-        alt: "Tarifs des consultations - Margot Reboul Psychologue",
+        width: 1200,
+        height: 630,
+        alt: "Cabinet de psychologie Margot Reboul - Tarifs des consultations à Toulouse et Plaisance-du-Touch", // Alt text plus descriptif
       },
     ],
-  },
-  keywords: [
-    "tarifs psychologue Toulouse",
-    "prix consultation psychologue",
-    "tarif séance TND",
-    "prix consultation autisme",
-    "groupe habiletés sociales Toulouse",
-    "guidance parentale tarif",
-    "Plaisance-du-Touch psychologue prix",
-  ],
-  alternates: {
-    canonical: 'https://margot-reboul.vercel.app/price',
   },
 };
 

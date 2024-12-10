@@ -4,13 +4,25 @@ import { Service } from "@/components/exports";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Prestations",
+  title: "Prestations", // Avec le template, ça donnera "Prestations | Margot Reboul - Psychologue"
   description:
     "Consultations psychologiques spécialisées en TND et autisme à Toulouse. Évaluations, bilans psychologiques, accompagnement thérapeutique, guidance parentale. Expertise troubles neurodéveloppementaux.",
+  alternates: {
+    canonical: "/service",
+  },
   openGraph: {
-    title: "Prestations | Margot Reboul - Psychologue TND & Autisme",
+    title: "Services psychologiques spécialisés TND & Autisme à Toulouse",
     description:
       "Consultations psychologiques spécialisées en TND et autisme à Toulouse. Évaluations, bilans psychologiques, accompagnement thérapeutique, guidance parentale. Expertise troubles neurodéveloppementaux.",
+    url: "/service",
+    images: [
+      {
+        url: "/imgs/margot.png",
+        width: 1200,
+        height: 630,
+        alt: "Services psychologiques - Margot Reboul à Toulouse et Plaisance-du-Touch",
+      },
+    ],
   },
 };
 

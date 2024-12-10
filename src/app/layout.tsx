@@ -64,24 +64,24 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/imgs/logo_sapin.svg/favicon.svg", type: "image/svg+xml" },
+      { url: "/imgs/favicon.svg", type: "image/svg+xml" },
       {
-        url: "/imgs/logo_sapin.svg/favicon-96x96.png",
+        url: "/imgs/favicon-96x96.png",
         sizes: "96x96",
         type: "image/png",
       },
-      { url: "/imgs/logo_sapin.svg/favicon.ico" },
+      { url: "/imgs/favicon.ico" },
     ],
     apple: [
       {
-        url: "/imgs/logo_sapin.svg/apple-touch-icon.png",
+        url: "/imgs/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "/imgs/logo_sapin.svg/favicon.ico" }],
+    shortcut: [{ url: "/imgs/favicon.ico" }],
   },
-  manifest: "/imgs/logo_sapin.svg/site.webmanifest",
+  manifest: "/imgs/site.webmanifest",
   alternates: {
     canonical: "/",
   },

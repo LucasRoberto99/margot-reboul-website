@@ -6,11 +6,23 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contactez Margot Reboul, psychologue à Toulouse et Plaisance-du-Touch. Prise de rendez-vous pour consultations TND & Autisme. Disponible pour enfants, adolescents et adultes.",
+    "Prenez rendez-vous avec Margot Reboul, psychologue TND & Autisme à Toulouse (Centre) et Plaisance-du-Touch. Consultations enfants, adolescents et adultes. Horaires flexibles, deux cabinets à votre disposition.",
+  alternates: {
+    canonical: "/contact",
+  },
   openGraph: {
-    title: "Contact | Margot Reboul - Psychologue TND & Autisme",
+    title: "Prendre rendez-vous | Psychologue TND & Autisme Toulouse",
     description:
-      "Contactez Margot Reboul, psychologue à Toulouse et Plaisance-du-Touch. Prise de rendez-vous pour consultations TND & Autisme. Disponible pour enfants, adolescents et adultes.",
+      "Prenez rendez-vous avec Margot Reboul, psychologue TND & Autisme à Toulouse (Centre) et Plaisance-du-Touch. Consultations enfants, adolescents et adultes. Horaires flexibles, deux cabinets à votre disposition.",
+    url: "/contact",
+    images: [
+      {
+        url: "/imgs/margot.png",
+        width: 1200,
+        height: 630,
+        alt: "Prendre rendez-vous avec Margot Reboul - Cabinets à Toulouse et Plaisance-du-Touch",
+      },
+    ],
   },
 };
 
